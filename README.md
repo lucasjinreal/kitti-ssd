@@ -71,3 +71,10 @@ Find above code change all KITTI into your dataset name, save it and you are rea
 python train_ssd_kitti.py
 ```
 
+### Finally, For Test Result
+got your image path in data, for example `data/test2.jpg` and then change `ssd_detection.py` file path, then run:
+```
+python ssd_detection.py
+```
+Here is the result:
+![image](http://ojek5ksya.bkt.clouddn.com/np56AsBKU38WLcZH.png)
